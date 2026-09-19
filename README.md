@@ -1,16 +1,8 @@
-Here's your complete **README.md** file - ready to use.
-
-**How to save it:**
-1. In your project folder, create a new file named `README.md`
-2. Copy everything below the line and paste it into that file
-3. Create an `Images/` folder and add your screenshots with the same names
-
----
 # Zepto Inventory Analysis Using Oracle SQL & Power BI
 
 ## Project Overview
 
-![Project Overview](Images/Zepto%20Inventory%20Analysis.png)
+![Project Overview](images/Zepto_Inventory_Dashboard.png)
 
 **Zepto Inventory Analysis** is a SQL and Power BI data analytics project focused on analyzing product pricing, discounts, estimated revenue, inventory availability, product weight, and out-of-stock performance across different product categories.
 
@@ -563,7 +555,7 @@ The original calculation returns the total weight in grams. The additional calcu
 
 # Power BI Dashboard
 
-![Zepto Inventory Dashboard](Images/Zepto%20Inventory%20Dashboard.png)
+![Zepto Inventory Dashboard](images/Zepto_Inventory_Dashboard.png)
 
 The cleaned Oracle data was connected to Power BI to create an interactive dashboard.
 
@@ -588,7 +580,7 @@ The report includes:
 
 ## 1. Zepto Inventory Analysis Report
 
-![Zepto Inventory Analysis Report](Images/Zepto%20Inventory%20Analysis.png)
+![Zepto Inventory Analysis Report](images/Zepto_Inventory_Dashboard.png)
 
 This page provides an overall summary of product, revenue, discount, and inventory performance.
 
@@ -657,7 +649,7 @@ This analysis can help evaluate the relationship between discounts and category 
 
 ## 4. Product and Price Analysis
 
-![Product and Price Analysis](Images/Product%20and%20Price%20Analysis.png)
+![Product and Price Analysis](images/Product%20and%20Price.png)
 
 This page focuses on product pricing, MRP, selling price, and discounts.
 
@@ -699,7 +691,7 @@ This page focuses on product pricing, MRP, selling price, and discounts.
 
 ## 5. Inventory Analysis
 
-![Inventory Analysis](Images/Inventory%20Analysis.png)
+![Inventory Analysis](images/Inventory.png)
 
 The Inventory Analysis page focuses on stock availability, inventory quantity, inventory weight, and potential inventory value.
 
@@ -883,35 +875,3 @@ Future versions of this project can include:
 * Row-level security for different business users
 
 ---
-
-## Project Structure
-
-```text
-Zepto-Inventory-Analysis/
-│
-├── README.md
-│
-├── data/
-│   └── zepto_inventory.csv
-│
-├── sql/
-│   ├── 01_create_table.sql
-│   ├── 02_data_import_validation.sql
-│   ├── 03_data_cleaning.sql
-│   └── 04_business_analysis.sql
-│
-├── dashboard/
-│   └── Zepto Inventory Analysis.pbix
-│
-└── Images/
-    ├── Zepto Inventory Analysis.png
-    ├── Zepto Inventory Dashboard.png
-    ├── Product and Price Analysis.png
-    └── Inventory Analysis.png
-```
-
----
-
-## License
-
-This project is intended for educational, portfolio, and business analytics purposes. Data ownership and usage rights depend on the original dataset source.
